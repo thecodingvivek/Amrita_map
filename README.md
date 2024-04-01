@@ -58,7 +58,21 @@
  When I moved to Amrita Vishwa Vidyapeetham University Campus in 2022 (After COVID Lockdown), I faced a lot of trouble not knowing routes to places, taking long routes and getting lost sometimes.
 The existing Paper maps weren't very effective althogh they helped a little. Google maps didn't have all places and routes in the campus at that time. That is when I felt the need to make a navigator for the campus.
 
- One Year Later, I took up that idea for my Data Structures and Algorithms Course Project and completed the current version of the prototype. I received permission from my university authorities to go ahead into expanding the project for the entire campus so i started working on designing our campus's map in `Autocad`.
+ One Year Later, I took up that idea for my Data Structures and Algorithms Course Project with my limited skillset at that point of time (`HTML`,`CSS` and `JS`)  and completed the current version of the prototype. I received permission from my university authorities to go ahead into expanding the project for the entire campus so i started working on designing our campus's map in `Autocad`.
 
 <img align="center" src="./Res/map-min.webp"/>
 
+ When I finished, the design and was planning to start integrating the realworld measurements, location data and images into the graph, I was faced by a major challenge, Our expanding campus. Our University started rigorous construction activity in full fledge at a rapid pace, which continued to alter the entire landscape of our University Campus. That is when I realized the importance of modularity, and understood that, having a single image as the backbone of the terrain of Our University in my map was not a great Idea. Though I expected a few buildings to comeup, and designed the map with the expected design of all the constructions in progress back then, I should have anticipated more buildings to come up.
+
+ Unfortunately due to the inabilities in procuring the blueprint of the future campus, shortage of developers to maintain code, difficulties in attaching images and description of future buildings and uncertainity of finding volunteers to update the data regarding the Univerity Topography and Social Life in the future, I had to shelve this project in late 2023.
+
+# Open Source
+This project is opensource now, meaning anybody is free to use any of the ideas or pieces of code in this project, fork the repository and make changes to this project, or come up with a completely different new product based on this project.
+
+> Any Individuals interested to work towards finishing this project are welcome to contact me @ `abhinavramki2@gmail.com` or `cb.en.u4cse21001@cb.students.amrita.edu`
+
+# Licensing
+All code in this repository is Licensed Under `MIT License`, and is freely available for anyone to use or make changes.
+
+# Contributing
+Refer to The [Code of Conduct](https://github.com/Abhinav-ark/Amrita_map/blob/with_navbar/CODE_OF_CONDUCT.md) before making a pull request to the repository, posting on the discussions section or involing in any public activity related to this repository.

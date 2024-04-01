@@ -49,7 +49,16 @@
 - Below the navigation instructor, you get a list view of places on the way from your current location to your destination.
 - Tap on any place to see the full description, images, timings, things to do and must-tries in that place.
 
-# End Navigation Screens and New NavBar
+# End Navigation and New NavBar
 <div align="center">
 <img align="center" height="600px" src="./Res/exit_and_navbar.png"/>
 </div>
+
+# Motivation Behind the Project
+ When I moved to Amrita Vishwa Vidyapeetham University Campus in 2022 (After COVID Lockdown), I faced a lot of trouble not knowing routes to places, taking long routes and getting lost sometimes.
+The existing Paper maps weren't very effective althogh they helped a little. Google maps didn't have all places and routes in the campus at that time. That is when I felt the need to make a navigator for the campus.
+
+ One Year Later, I took up that idea for my Data Structures and Algorithms Course Project and completed the current version of the prototype. I received permission from my university authorities to go ahead into expanding the project for the entire campus so i started working on designing our campus's map in `Autocad`.
+
+<img align="center" src="./Res/map-min.webp"/>
+

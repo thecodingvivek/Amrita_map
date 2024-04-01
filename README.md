@@ -34,6 +34,7 @@
 - `Rotate` by using 3 fingers
 - The Red Needle of the Compass always points towards north of the map
 - When you rotate the map, the direction arrow rotates automatically to adapt to the new changes.
+> Rotate Functionality is only supported in touch screen displays as of now, and not yet supported in laptop trackpads.
 
 ## Map Toolbar
 <div align="center">
@@ -46,4 +47,9 @@
 </div>
 
 - Below the navigation instructor, you get a list view of places on the way from your current location to your destination.
-- Tap on any place to see the full description, images, timings, things to do and must-tries in that place. 
+- Tap on any place to see the full description, images, timings, things to do and must-tries in that place.
+
+# End Navigation Screens and New NavBar
+<div align="center">
+<img align="center" height="600px" src="./Res/exit_and_navbar.png"/>
+</div>

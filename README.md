@@ -74,6 +74,11 @@ This project is opensource now, meaning anybody is free to use any of the ideas 
 # Contributing
 Refer to The [Code of Conduct](https://github.com/Abhinav-ark/Amrita_map/blob/with_navbar/CODE_OF_CONDUCT.md) before making a pull request to the repository, posting on the discussions section or involing in any public activity related to this repository.
 
+# Improvement Ideas
+- The algorithm currently being used is `A* Search`. Instead `Floyd Warshall Algorithm` can be run once through the graph, every time a new node is inserted and all pair shortest paths stored in a data structure, so we don't need to compute the shortest path everytime on the client side.
+- `PWA`, Offline support with `Service workers` or offline `flutter` application
+- [Zoomify](http://www.zoomify.com/) and [openSeaDragon](https://openseadragon.github.io/) Integration  
+
 # Licensing
 All code in this repository is Licensed Under `MIT License`, and is freely available for anyone to use or make changes.
 

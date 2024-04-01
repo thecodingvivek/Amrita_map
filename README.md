@@ -71,8 +71,11 @@ This project is opensource now, meaning anybody is free to use any of the ideas 
 
 > Any Individuals interested to work towards finishing this project are welcome to contact me @ `abhinavramki2@gmail.com` or `cb.en.u4cse21001@cb.students.amrita.edu`
 
+# Contributing
+Refer to The [Code of Conduct](https://github.com/Abhinav-ark/Amrita_map/blob/with_navbar/CODE_OF_CONDUCT.md) before making a pull request to the repository, posting on the discussions section or involing in any public activity related to this repository.
+
 # Licensing
 All code in this repository is Licensed Under `MIT License`, and is freely available for anyone to use or make changes.
 
-# Contributing
-Refer to The [Code of Conduct](https://github.com/Abhinav-ark/Amrita_map/blob/with_navbar/CODE_OF_CONDUCT.md) before making a pull request to the repository, posting on the discussions section or involing in any public activity related to this repository.
+# Security Policy
+Refer [SECURITY.md](https://github.com/Abhinav-ark/Amrita_map/blob/with_navbar/SECURITY.md) for Security Policy.

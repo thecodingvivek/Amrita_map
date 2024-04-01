@@ -8,7 +8,7 @@
  -  `Yellow`: Completed
  -  `Orange`: Returned Back
  -  `Red`: Yet To Cover
-- [x] Map Refresh, Rotate 90°, Back To 100% Zoom and 0° Rot Buttons
+- [x] <b>Toolbar:</b> Map Refresh, Rotate 90°, Back To 100% Zoom and 0° Rot Buttons
 - [x] Dynamic Compass
 - [x] Dynamic Directions Based on current Compass direction and Map Rotation
 - [x] Destination Reached Alert Model
@@ -30,12 +30,20 @@
 # Interacting with the Map
 <img align="center" src="./Res/interact.png"/>
 
-- Zoom by using Two Fingers
-- Rotate by using 3 fingers
+- `Zoom` by using Two Fingers
+- `Rotate` by using 3 fingers
+- The Red Needle of the Compass always points towards north of the map
+- When you rotate the map, the direction arrow rotates automatically to adapt to the new changes.
 
 ## Map Toolbar
 <div align="center">
-<img align="center" height="250px" width="500px" src="./Res/toolbar.png"/>
+<img align="center" height="250px" src="./Res/toolbar.png"/>
 </div>
 
+# On Your Way
+<div align="center">
+<img align="center" height="600px" src="./Res/on_your_way.png"/>
+</div>
 
+- Below the navigation instructor, you get a list view of places on the way from your current location to your destination.
+- Tap on any place to see the full description, images, timings, things to do and must-tries in that place. 

@@ -1,3 +1,7 @@
+<a href="https://visitcount.itsvg.in">
+  <img align='center' src="https://visitcount.itsvg.in/api?id=Amrita-map&label=Total%20Views&color=12&icon=5&pretty=false" />
+</a>
+
 <h1 align="center"> Offline Navigator Web App </h1>
 <img align="center" src="./Res/amrita_map.png"/>
 

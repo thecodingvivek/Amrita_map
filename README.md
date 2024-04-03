@@ -1,6 +1,20 @@
-<a href="https://visitcount.itsvg.in">
-  <img align='center' src="https://visitcount.itsvg.in/api?id=Amrita-map&label=Total%20Views&color=12&icon=5&pretty=false" />
+<div align="center" style="display:flex; align-items: center; justify: center; text-decoration: none ">
+<a href="https://visitcount.itsvg.in" target="_blank" rel="noreferrer">
+  <img align='center' src="https://visitcount.itsvg.in/api?id=Amrita-map&label=Total%20Views&color=12&icon=5&pretty=false"/>
 </a>
+
+<a href="https://github.com/Abhinav-ark/Amrita_map/actions/workflows/pages/pages-build-deployment" target="_blank" rel="noreferrer">
+  <img align='center' src="https://github.com/Abhinav-ark/Amrita_map/actions/workflows/pages/pages-build-deployment/badge.svg"/>
+</a>
+<a href="https://github.com/Abhinav-ark/Amrita_map/blob/with_navbar/LICENSE" target="_blank" rel="noreferrer">
+  <img align='center' src="https://img.shields.io/badge/LICENSE-MIT-green"/>
+</a>
+<a href="https://github.com/Abhinav-ark/Amrita_map" target="_blank" rel="noreferrer">
+  <img align='center' src="https://img.shields.io/github/created-at/Abhinav-ark/Amrita_map"/>
+</a>  
+</div>
+
+
 
 <h1 align="center"> Offline Navigator Web App </h1>
 <img align="center" src="./Res/amrita_map.png"/>

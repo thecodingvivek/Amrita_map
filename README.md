@@ -62,7 +62,7 @@
 
 # On Your Way
 <div align="center">
-<img align="center" height="600px" src="./Res/on_your_way.png"/>
+<img align="center" width="700px" src="./Res/on_your_way.png"/>
 </div>
 
 - Below the navigation instructor, you get a list view of places on the way from your current location to your destination.
@@ -70,7 +70,7 @@
 
 # End Navigation and New NavBar
 <div align="center">
-<img align="center" height="600px" src="./Res/exit_and_navbar.png"/>
+<img align="center" width="700px" src="./Res/exit_and_navbar.png"/>
 </div>
 
 <br>

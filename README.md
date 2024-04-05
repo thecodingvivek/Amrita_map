@@ -72,6 +72,12 @@
 <img align="center" height="600px" src="./Res/exit_and_navbar.png"/>
 </div>
 
+<br>
+<div align='center'>
+<a align='center' href="https://abhinav-ark.github.io/Amrita_map" target="_blank" rel="noreferrer">Try App</a>
+</div>
+<br>
+
 # Motivation Behind the Project
  When I moved to Amrita Vishwa Vidyapeetham University Campus in 2022 (After COVID Lockdown), I faced a lot of trouble not knowing routes to places, taking long routes and getting lost sometimes.
 The existing Paper maps weren't very effective although they helped a little. Google maps didn't have all places and routes in the campus at that time. That is when I felt the need to make a navigator for the campus.

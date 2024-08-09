@@ -102,8 +102,9 @@ Refer to The [Code of Conduct](https://github.com/Abhinav-ark/Amrita_map/blob/wi
 
 # Improvement Ideas
 - The algorithm currently being used is `A* Search`. Instead `Floyd Warshall Algorithm` can be run once through the graph, every time a new node is inserted and all pair shortest paths stored in a data structure, so we don't need to compute the shortest path everytime on the client side.
-- `PWA`, Offline support with `Service workers` or offline `flutter` application
-- [Zoomify](http://www.zoomify.com/) and [openSeaDragon](https://openseadragon.github.io/) Integration  
+- `PWA`, Offline support with `Service workers` or offline `flutter` application.
+- Image Optimization and lazy loading.
+- [Zoomify](http://www.zoomify.com/) and [openSeaDragon](https://openseadragon.github.io/) Integration.
 
 # Licensing
 All code in this repository is Licensed Under `MIT License`, and is freely available for anyone to use or make changes.

@@ -62,7 +62,6 @@ function rotate90(){
     target.style.transition='transform 200ms ease-in';
     compass.style.transform = 'rotate('+rt+'deg)';
     adjustDir(i-1);
-    console.log("called");
 }
 function R_rotate15(){
     rt+=15;
@@ -70,7 +69,6 @@ function R_rotate15(){
     target.style.transition='transform 200ms ease-in';
     compass.style.transform = 'rotate('+rt+'deg)';
     adjustDir(i-1);
-    console.log("called");
 }
 
 function L_rotate15(){
@@ -79,7 +77,6 @@ function L_rotate15(){
     target.style.transition='transform 200ms ease-in';
     compass.style.transform = 'rotate('+rt+'deg)';
     adjustDir(i-1);
-    console.log("called");
 }
 function compassNorth(){
     target.style.transform = 'rotate('+0+'deg)';

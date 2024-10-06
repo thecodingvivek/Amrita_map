@@ -322,6 +322,16 @@ document.addEventListener("DOMContentLoaded", () => {
   search.onclick = ()=>vis.solve();
 
 });
+document.addEventListener('keydown',(pressed)=>{
+  if (pressed.ctrlKey && pressed.key === 'ArrowRight'){
+    R_rotate20();
+  }
+  if (pressed.ctrlKey && pressed.key === 'ArrowLeft'){
+    L_rotate20();
+  }
+})
   
+  
+    
   
   

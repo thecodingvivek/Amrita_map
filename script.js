@@ -324,14 +324,9 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 document.addEventListener('keydown',(pressed)=>{
   if (pressed.ctrlKey && pressed.key === 'ArrowRight'){
-    R_rotate20();
+    R_rotate15();
   }
   if (pressed.ctrlKey && pressed.key === 'ArrowLeft'){
-    L_rotate20();
+    L_rotate15();
   }
 })
-  
-  
-    
-  
-  

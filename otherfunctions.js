@@ -64,8 +64,8 @@ function rotate90(){
     adjustDir(i-1);
     console.log("called");
 }
-function R_rotate20(){
-    rt+=20;
+function R_rotate15(){
+    rt+=15;
     target.style.transform = 'rotate('+rt+'deg)';
     target.style.transition='transform 200ms ease-in';
     compass.style.transform = 'rotate('+rt+'deg)';
@@ -73,8 +73,8 @@ function R_rotate20(){
     console.log("called");
 }
 
-function L_rotate20(){
-    rt-=20;
+function L_rotate15(){
+    rt-=15;
     target.style.transform = 'rotate('+rt+'deg)';
     target.style.transition='transform 200ms ease-in';
     compass.style.transform = 'rotate('+rt+'deg)';
@@ -89,7 +89,7 @@ function compassNorth(){
 }
 
 function mapNavInfo(){
-    alert("On a TouchSceen, Use 1 finger to Pan, 2 fingers to zoom and 3 fingers to rotate.");
+    alert("On a TouchSceenUse 1 finger to Pan, 2 fingers to zoom and 3 fingers to rotate.\n Shortcut Keys: \n Ctrl + --> to rotate 15 degrees clockwise \n Ctrl + <-- to rotate 15 degrees anti clockwise");
 }
 
 

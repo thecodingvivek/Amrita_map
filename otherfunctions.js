@@ -64,7 +64,23 @@ function rotate90(){
     adjustDir(i-1);
     console.log("called");
 }
+function R_rotate20(){
+    rt+=20;
+    target.style.transform = 'rotate('+rt+'deg)';
+    target.style.transition='transform 200ms ease-in';
+    compass.style.transform = 'rotate('+rt+'deg)';
+    adjustDir(i-1);
+    console.log("called");
+}
 
+function L_rotate20(){
+    rt-=20;
+    target.style.transform = 'rotate('+rt+'deg)';
+    target.style.transition='transform 200ms ease-in';
+    compass.style.transform = 'rotate('+rt+'deg)';
+    adjustDir(i-1);
+    console.log("called");
+}
 function compassNorth(){
     target.style.transform = 'rotate('+0+'deg)';
     target.style.transition='transform 200ms ease-in';

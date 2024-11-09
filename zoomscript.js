@@ -10,16 +10,15 @@ var panX = 0;
 var panY = 0;
 var rotationAngle = 0;
 var maxDisplacement = 500; // Maximum displacement in pixels for pan gestures
+var scale = 1; // Initial scale for zoom.
 
 source.addEventListener("wheel", function (e) {
   e.preventDefault();
 
   if (e.ctrlKey) {
-    // Zoom
-    var width = getStyleInt(target, "width");
-    var newWidth = width - e.deltaY;
-    setStyleInt(target, "width", newWidth);
-    setStyleInt(target, "height", newWidth);
+    scale -= e.deltaY * 0.01;
+    scale = Math.max(0.5, Math.min(3, scale)); // Limit scale between 0.5 and 3
+    target.style.transform = `scale(${scale})`;
   } else {
     // Pan
     var x = getStyleInt(target, "left");
@@ -56,9 +55,8 @@ source.addEventListener("touchmove", function (e) {
     // Pinch gesture
     var currentPinchDistance = getPinchDistance(e.touches[0], e.touches[1]);
     var scale = currentPinchDistance / startPinchDistance;
-    var newWidth = startWidth * scale;
-    setStyleInt(target, "width", newWidth);
-    setStyleInt(target, "height", newWidth);
+    scale = startWidth * scale / getStyleInt(target, "width");
+    target.style.transform = `scale(${scale})`;
   } else if (e.touches.length === 1) {
     // Pan gesture
     var touchX = e.touches[0].clientX;

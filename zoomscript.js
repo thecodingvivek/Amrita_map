@@ -40,7 +40,7 @@ source.addEventListener("touchstart", function (e) {
     // Start of pinch gesture
     isPinching = true;
     startPinchDistance = getPinchDistance(e.touches[0], e.touches[1]);
-    startWidth = getStyleInt(target, "width");
+    startWidth = target.getBoundingClientRect().width;
   } else if (e.touches.length === 1) {
     // Start of pan gesture
     touchStartX = e.touches[0].clientX;
